@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExpertNutri - Saúde e Bem-Estar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">ExpertNutri</h1>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#sobre">Nossa equipe</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#vantagens">Vantagens</a></li>
+                    <li><a href="#compras">Adquira nossos serviços</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Seção Sobre Nós -->
+    <section id="sobre" class="sobre">
+        <div class="container">
+            <div class="content">
+                <h2>Conheça nossa equipe</h2>
+                <p>Somos a ExpertNutri, uma equipe de nutricionistas especializados e preparados para te oferecer saúde, qualidade de vida e bem-estar através da alimentação saudável e personalizada para sua necessidade. Garantimos resultados efetivos e duradouros!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Serviços -->
+    <section id="servicos" class="servicos">
+        <div class="container">
+            <h2>Serviços</h2>
+            <div class="services-grid">
+                <div class="service-item">
+                    <img src="images/personalizado.jpg" alt="Consultoria Nutricional">
+                    <h3>Consultoria Nutricional</h3>
+                    <p>Acompanhamento personalizado para melhorar sua alimentação sem dietas restritivas.</p>
+                </div>
+                <div class="service-item">
+                    <img src="images/cardapios.jpg" alt="Planejamento Alimentar">
+                    <h3>Planejamento Alimentar</h3>
+                    <p>Elaboração de cardápios específicos para suas necessidades.</p>
+                </div>
+                <div class="service-item">
+                    <img src="images/gravida.jpg" alt="Avaliação Física">
+                    <h3>Avaliação Física</h3>
+                    <p>Avaliação completa feita em qualquer lugar! + Praticidade para resultados efetivos. </p>
+                </div>
+                <div class="service-item">
+                    <img src="images/saudavel.jpg" alt="Programas de Reeducação Alimentar">
+                    <h3>Programas de Reeducação Alimentar</h3>
+                    <p>Programas para te ajudar a adotar hábitos alimentares mais saudáveis e duradouros. </p>
+            </div>
+        </div>
+    </section>
+    <style>
+        .service-item {
+            transition: transform 0.3s ease;
+        }
+        .service-item:hover {
+            transform: scale(1.05);
+        }
+    </style>
+
+    <!-- Seção Vantagens -->
+    <section id="vantagens" class="vantagens">
+        <div class="containernew">
+            <h2>Vantagens</h2>
+            <div class="contentnew">
+                <ul class="vantagens-list">
+                    <li>Atendimento Personalizado</li>
+                    <li>Planos Alimentares sob Medida</li>
+                    <li>Suporte Contínuo e Consultas de Acompanhamento</li>
+                    <li>Profissionais Experientes e Qualificados</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+     <!-- Seção de Compras de Serviços -->
+     <section id="compras" class="compras">
+        <div class="container">
+            <h2>Adquira Nossos Serviços</h2>
+            <div class="compras-grid">
+                <div class="compra-item">
+                    <img src="images/dietplan.jpg" alt="Serviço 1">
+                    <h3>Plano Nutricional Completo</h3>
+                    <p>Receba um plano nutricional personalizado..</p>
+                    <button class="btn-comprar">Comprar</button>
+                    <button class="btn-conhecer">Conhecer</button>
+                </div>
+                <div class="compra-item">
+                    <img src="images/avaliacaoimage.jpg" alt="Serviço 2">
+                    <h3>Consulta de Avaliação</h3>
+                    <p>Agende uma consulta com nossos especial..</p>
+                    <button class="btn-comprar">Comprar</button>
+                    <button class="btn-conhecer">Conhecer</button>
+                </div>
+                <div class="compra-item">
+                    <img src="images/reeducacao.jpg" alt="Serviço 3">
+                    <h3>Programa de Reeducação Alimentar</h3>
+                    <p>Participe de nosso programa e transforme..</p>
+                    <button class="btn-comprar">Comprar</button>
+                    <button class="btn-conhecer">Conhecer</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato" class="contato">
+        <div class="container">
+            <h2>Fale conosco</h2>
+            <form action="#">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Seção Comentários -->
+    <section id="comentarios" class="comentarios">
+        <div class="container">
+            <h2>Opiniões dos nossos</h2> <h3>pacientes</h3>
+            <div class="comentarios-grid">
+                <div class="comentario-item">
+                    <p>"A ExpertNutri mudou minha vida! Com a ajuda deles, consegui atingir meus objetivos de saúde."</p>
+                    <span>- João Ricardo</span>
+                </div>
+                <div class="comentario-item">
+                    <p>"O atendimento é excelente e os resultados são visíveis em pouco tempo."</p>
+                    <span>- Maria Cláudia</span>
+                </div>
+                <div class="comentario-item">
+                    <p>"Nota 1000! O programa de Reeducação Alimentar é muito bem elaborado."</p>
+                    <span>- Selma Silva</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 ExpertNutri. Todos os direitos reservados.</p>
+            <p>Endereço: Rua Saúde, 123 - Centro, São Paulo, SP</p>
+            <p>Telefone: (11) 4052-8922</p>
+            <p>Created by Karilene Ferreira</p>
+        </div>
+    </footer>
+
+</body>
+</html>
